@@ -14,4 +14,6 @@ Le notebook `prepare.ipynb` décrit comment télécharger les rasters puis les m
 
 Le code front est disponible dans le dossier `src`. Il s'appuie sur React mais on aurait pu utiliser un autre framework ou du vanilla js.
 
+Pour la projection en Lambert 93. J'utilise [une fonction de Philippe Rivière disponible ici](https://observablehq.com/@fil/proj4js-d3).
+
 ![](./screenshot.png)

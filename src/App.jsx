@@ -55,18 +55,27 @@ function Chart() {
   }, [departements, sizes]);
 
   return (
-    <div className="map">
+    <div
+      className="map"
+      style={{
+        height: "100vh",
+        width: "100%",
+        maxWidth: "700px",
+        margin: "0 auto",
+      }}
+    >
       <h1>Une carte SVG en Lambert 93 avec un fond de carte</h1>
       <svg
         preserveAspectRatio="xMidYMid meet"
         viewBox={`0 0 ${width} ${height}`}
+        style={{ display: "block", border: "solid 1px #000" }}
       >
         <g transform={`translate(${margin}, ${margin})`}>
           <image href="./elevation.jpeg" {...geo.franceSizes} />
           <path
             d={geo.path(departements)}
             fill="none"
-            stroke="white"
+            stroke="#fff"
             vectorEffect={"non-scaling-stroke"}
             strokeLinecap="round"
             strokeLinejoin="round"
