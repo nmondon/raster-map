@@ -16,4 +16,9 @@ Le code front est disponible dans le dossier `src`. Il s'appuie sur React mais o
 
 Pour la projection en Lambert 93. J'utilise [une fonction de Philippe Rivière disponible ici](https://observablehq.com/@fil/proj4js-d3).
 
+```bash
+npm i
+npm run dev
+```
+
 ![](./screenshot.png)
