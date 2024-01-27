@@ -1,8 +1,8 @@
-# Comment créer un fond de carte à partir de rasters d'altitude et un hillshade
+# React + Vite
 
-Vous souhaitez faire une carte en javascript ou en python. Rien de plus facile aujourd'hui grâce à **d3.js**. Mais pourquoi pas la pimper un peu avec un fond de carte des reliefs ?
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-> Ce tutoriel s'appuie en grande partie sur celui-ci d'[Adam Symington](https://pythonmaps.medium.com/?source=post_page-----efced5507aa3--------------------------------) : [Creating Beautiful Topography Maps with Python](https://towardsdatascience.com/creating-beautiful-topography-maps-with-python-efced5507aa3)
+Currently, two official plugins are available:
 
-- Génération de la carte avec Python
-- Affichage du fond avec du svg
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
